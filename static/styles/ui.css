@@ -1,0 +1,36 @@
+/* Интерфейсные элементы */
+
+.menu-block { display: flex; gap: 2rem;}
+.menu-item {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.menu-item:hover { color: #8b0000;}
+.menu-item h4 { margin: 0; font-weight: normal; }
+
+/* Карточки с картинками */
+.champions-block { padding: 2rem; max-width: 1200px; margin: 0 auto; }
+.lane-champions-cards { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;}
+.champion-card {
+    width: 250px; height: 350px; position: relative;
+    background: #0a0a0a; border: 1px solid #222;
+    overflow: hidden; transition: 0.4s; text-decoration: none;
+}
+.champion-art { width: 100%; height: 100%; position: relative;}
+.champion-art img {
+    width: 100%; height: 100%; object-fit: cover;
+    filter: grayscale(100%); transition: 0.4s;
+}
+.champion-name {
+    position: absolute; bottom: 0; left: 0; width: 100%;
+    background: linear-gradient(to top, #000, transparent); color: #fff;
+    padding: 2rem 1rem 1rem; margin: 0;
+    letter-spacing: 2px; text-transform: uppercase;
+}
+.champion-card:hover {
+    transform: scale(1.03);
+    border-color: #8b0000; box-shadow: 0 0 30px rgba(139, 0, 0, 0.1);
+}
+.champion-card:hover .champion-art img { filter: grayscale(0%);}
