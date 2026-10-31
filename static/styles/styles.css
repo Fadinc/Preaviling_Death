@@ -22,10 +22,10 @@
 
 /* Цвета для заголовков */
 .red { color: #8b0000; }
-.gray { color: #444;}
+.gray { color: #615e6b;}
 
 /* Раздец Анатомия дара */
-.map-block { padding: 4rem 2rem; text-align: center;}
+.map-block { padding: 4rem 2rem; text-align: center; }
 .map-table { position: relative; margin: 2rem auto; max-width: 1000px;}
 .map-table img { width: 100%; filter: sepia(30%) brightness(0.7); }
 .map-description {
@@ -36,11 +36,12 @@
 .field-viral .field-label { bottom: -40px; color: #ff5555; font-size: 16px;}
 .field-somatic .field-label { right: -155px; color: #88ff88; font-size: 16px; text-align: left;}
 .field-cognitive .field-label { left: -190px; color: #6f6fda; font-size: 16px; text-align: right;}
-.map-title { display: flex; justify-content: center;}
-.map { text-align: center;}
+.map-title { display: flex; justify-content: center;  margin-bottom: 0;}
+.map { text-align: center; }
 
 /* Для параграфов */
-.lane-block { margin-bottom: 4rem; }
-.lane-title { font-size: 2rem; margin-bottom: 1rem; text-transform: uppercase; border-bottom: 1px solid #8b0000;}
+.lane-block { margin-bottom: 4rem; position: relative;}
+.lane-champions-cards { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;}
+.lane-title { font-size: 2rem; margin-bottom: 1rem; text-transform: uppercase; border-bottom: 1px solid #8b0000; }
 .lane-description { color: #888; font-style: italic; margin-bottom: 2rem; font-size: 16px;}
-.anotation { position: absolute; text-align: center; right: 20%; left: 20%;}
+.anotation { width: 70%; margin: 0 auto; text-align: center; padding-top: 10px;}

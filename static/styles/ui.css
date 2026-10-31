@@ -11,8 +11,10 @@
 .menu-item h4 { margin: 0; font-weight: normal; }
 
 /* Карточки с картинками */
-.champions-block { padding: 2rem; max-width: 1200px; margin: 0 auto; }
-.lane-champions-cards { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;}
+.champions-block { 
+    padding: 2rem; max-width: 1200px; margin: 0 auto; 
+    display: flex; flex-direction: column;
+}
 .champion-card {
     width: 250px; height: 350px; position: relative;
     background: #0a0a0a; border: 1px solid #222;
